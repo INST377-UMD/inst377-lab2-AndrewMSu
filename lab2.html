@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        .submitButton input[type="submit"]{
+            background-color: darkolivegreen;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: medium;
+            color: azure;
+        }
+
+        .submitButton input[type="submit"]:hover{
+            background-color: palegreen;
+            color: black;
+        }
+        
+        .contactInput input[type="text"]{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <form name="contactForm" method="get" action="lab2Page2.html"> 
+        <div class="contactInput">
+            <label for="Name">Name: </label>
+            <input type="text" id="Name" required>
+            <br>
+            <label for="Email">Email: </label>
+            <input type="text" id="Email" required>
+            <br>
+            <label for="Reason">Reason: </label>
+            <input type="text" id="Reason" required>
+        </div>
+        <div class="submitButton">
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
